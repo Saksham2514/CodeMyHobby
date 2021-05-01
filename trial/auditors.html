@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            setInterval(()=>{
+                check()
+            ,100})
+         
+        });
+        function check(){ 
+               $('#big').css('display','none');
+                $('#small').css('display','none');
+            if(screen.width<600){
+                $('#small').css('display','block');
+                $('#big').css('display','none');
+            }else {
+                $('#small').css('display','none');
+                $('#big').css('display','block');
+            }
+        }
+    </script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Clinical Auditors &amp; Monitors</title>
+<link href="css/css-bootstrap.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicons/img-favicon.png">
+<link href="css/css-all.min.css" rel="stylesheet">
+<link href="css/css-icofont.min.css" rel="stylesheet">
+<link href="css/css-owl.carousel.min.css" rel="stylesheet">
+<link href="css/css-style.css" rel="stylesheet">
+</head>    
+<body><p>&#65279;
+
+</p>
+    <!--=========header start============-->
+    <header class="header1 "><div class="headerTop">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4 col-sm-3 col-xs-12">
+                        <a href="index.html" class="logo"><img src="images/about-logo.png" class="img-responsive" alt="logo"></a>
+                    </div>
+                    <div class="col-lg-8 col-sm-9 col-xs-12 pull-right">
+                        <div class="contact-location">
+                            <div class="left-location">
+                                <i class="icofont-phone"></i>
+                                <div class="info">
+                                    <h4>Emergency No.</h4>
+                                    <h6><a href="tel:+91 9892144086">+91 9892144086</a></h6>
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="main-navigation-wrapper" class="navbar navbar-default header-middle"><div class="container">
+                <div class="navbar-header">
+                    <div class="logo-menu"><a href="index.html"><img src="images/about-logo.png" alt="logo"></a>
+                    </div>
+                    <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div id="main-navigation" class="collapse navbar-collapse ">
+                    <ul class="nav navbar-nav"><li class="dropdown active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="services.html">Our Services</a><i class="fa fa-chevron-down"></i>
+                            <ul class="dropdown-submenu"><li class="submenu_child">
+                                    <a href="auditors.html">Clinical Auditors</a></li>
+                                <li class="submenu_child">
+                                    <a href="monitors.html">Clinical trial Monitors</a></li>
+                                
+                            </ul></li>
+                        
+                        
+                    </ul><div class="header-nav-right">
+                        <div class="headerButton">
+                            <a class="acctivee" href="#footer">Contact Us</a>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </nav></header><!--=========header end============--><!-- hero-about-area start -->
+      
+  <div class="container my-5 pt-5">
+    <div id="big">
+    <!--Purpose-->
+    <div class="row my-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4>Purpose of Audit</h4>
+                <ul type="square">
+                    <li>To evaluate the trial conduct and compliance with:-</li>
+                    <li> Quality Systems</li>
+                    <li> SOPs</li>
+                    <li> Protocol</li>
+                    <li> Good clinical practices </li>
+                    <li>Other applicable regulatory requirements</li>
+                    <li>Auditors are independent of the clinical trial/ data collection system(s) Sponsor or CRO or Site</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                 <img class="img-fluid rounded my-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRrgdfaJXgUS-zgEAHXiwx4ctgf-WmTPEjg&usqp=CAU" alt="AOS ERROR">
+            </div>
+        </div>
+    </div>
+    <!--What to audit-->
+    <div class="row my-5">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <img class="img-fluid rounded my-auto" src="data:image/png;base64,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" alt="AOS ERROR">
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4>What to audit ?</h4>
+                <ul>
+                    <li> Organization and personnel Responsibilities and functions .</li>
+                    <li> Qualification, training and adequacy of staff List of monitors , List of all investigators ,</li>
+                    <li> Drug supply agreement , clinical trial (site )agreement , other services agreement and material transfer agreement</li>
+                    <li> Quality management systems</li>
+                    <li>Investigational drug</li>
+                    <li> Manufacturing</li>
+                    <li> Packaging</li>
+                    <li> Labeling and coding of the IP(including placebo and active comparator where applicable) in accordance with applicable GMP standards Labeling requirements, “For Clinical Trial Use Only” to protect blinding where applicable Drug Product Accountability</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Wssential Documents-->
+    <div class="row my-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4> Essential documents:</h4>
+                <ul>
+                    <li> Investigator’s brochure (Has all current info been provided to the investigator?)</li>
+                    <li>Verification of investigator’s qualifications ,expertise and resources and availability throughout the study.</li>
+                    <li>  Signed protocol and amendments (How are changes and deviations to the protocol handled? ) </li>
+                    <li> Advertisements for subject recruitment</li>
+                    <li> Informed consent forms , Approved by IRB/IEC? (All been signed off according to requirements? )</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <img src="data:image/png;base64,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" height="10%" width="auto" alt=" ERROR">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Mobile view-->
+    <div id="small">
+    <!--Purpose-->
+    <div class="row my-5">
+        <!--image-->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                 <img class="img-fluid rounded my-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRrgdfaJXgUS-zgEAHXiwx4ctgf-WmTPEjg&usqp=CAU" alt="AOS ERROR">
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4>Purpose of Audit</h4>
+                <ul type="square">
+                    <li>To evaluate the trial conduct and compliance with:-</li>
+                    <li> Quality Systems</li>
+                    <li> SOPs</li>
+                    <li> Protocol</li>
+                    <li> Good clinical practices </li>
+                    <li>Other applicable regulatory requirements</li>
+                    <li>Auditors are independent of the clinical trial/ data collection system(s) Sponsor or CRO or Site</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--What to audit-->
+    <div class="row my-5">
+        <!--image-->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <img class="img-fluid rounded my-auto" src="data:image/png;base64,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" alt="AOS ERROR">
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4>What to audit ?</h4>
+                <ul>
+                    <li> Organization and personnel Responsibilities and functions .</li>
+                    <li> Qualification, training and adequacy of staff List of monitors , List of all investigators ,</li>
+                    <li> Drug supply agreement , clinical trial (site )agreement , other services agreement and material transfer agreement</li>
+                    <li> Quality management systems</li>
+                    <li>Investigational drug</li>
+                    <li> Manufacturing</li>
+                    <li> Packaging</li>
+                    <li> Labeling and coding of the IP(including placebo and active comparator where applicable) in accordance with applicable GMP standards Labeling requirements, “For Clinical Trial Use Only” to protect blinding where applicable Drug Product Accountability</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Wssential Documents-->
+    <div class="row my-5">
+        <!--image-->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <img src="data:image/png;base64,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" height="10%" width="auto" alt=" ERROR">
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                <h4> Essential documents:</h4>
+                <ul>
+                    <li> Investigator’s brochure (Has all current info been provided to the investigator?)</li>
+                    <li>Verification of investigator’s qualifications ,expertise and resources and availability throughout the study.</li>
+                    <li>  Signed protocol and amendments (How are changes and deviations to the protocol handled? ) </li>
+                    <li> Advertisements for subject recruitment</li>
+                    <li> Informed consent forms , Approved by IRB/IEC? (All been signed off according to requirements? )</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+   
+
+    <!-- footer-area-start-->
+     <footer><section class="footer-area mt-5 "><a name="footer"></a><div class="container">
+                <div class="row">
+                   <div class="col-lg-4 col-sm-6 col-xs-12">
+                        <div class="footer-box">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="images/interface-logo-1.png" alt="img"></a>
+                               <p>
+                                    2/903, Lodha eternis chs<br/>
+                                    Road no.11,MIDC<br/>
+                                    Andheri east,Mumbai - 400093
+                                </p>
+                            </div>
+                            <ul class="text-foot">
+                                    <li><i class="icofont-phone"></i><a href="tel:+91 7506735707">+91 7506735707</a></li>
+                                    <li><i class="icofont-phone"></i><a href="tel:+91 9892144086 ">+91 9892144086 </a></li>
+                                    <li><i class="icofont-envelope"></i><a href="mailto:manishabanavalikar@gmail.com">manishabanavalikar@gmail.com</a>
+                                    </li>
+                                    <li><i class="icofont-envelope"></i><a href="mailto:manishabanavalikar@yahoo.com">manishabanavalikar@yahoo.com</a>
+                                    </li>
+                                </ul></div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-xs-12">
+                        <div class="footer-box">
+                            <h1>Explore</h1>
+                            <ul class="text-foot"><li><a href="index.html">Home</a></li>
+                                <li><a href="auditors.html">Auditors</a></li>
+                                <li><a href="monitors.html">Monitors</a></li>
+                            </ul></div>
+                    </div>
+<!--         -->           
+                    <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
+                        <div class="footer-box another">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.715658476944!2d72.86161531744388!3d19.120125999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82442c98955%3A0x393dfdb2d548e2f0!2sLodha%20Eternis!5e0!3m2!1sen!2sin!4v1615983845489!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <ul class="social"><li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                                <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                            </ul></div>
+                    </div>
+     
+                </div>
+            </div>
+        </section>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>2020 &copy; All rights reserved by <a href="#">Clinical Trial Auditor and Monitor</a></p>
+            </div>
+        </div>
+
+        <a href="#" class="go-top"><i class="fas fa-arrow-up"></i></a>
+    </footer><!-- jQuery first, then Popper.js, then Bootstrap JS --><script src="js/js-jquery.min.js"></script><script src="js/js-popper.js"></script><script src="js/js-owl.carousel.min.js"></script><script src="js/js-jquery-circular-progressbar-1.2.2.min.js"></script><script src="js/js-bootstrap.min.js"></script><script src="js/js-jquery.ui.js"></script><script src="js/js-jquery.magnific-popup.min.js"></script><script src="js/js-main.js"></script></body></html>
